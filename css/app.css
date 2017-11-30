@@ -97,7 +97,7 @@ body{
     background: url("../img/quesese-hero-img.jpg") no-repeat center center;
     background-size: cover;
     height: 73vh;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 3px #ffffff;
 }
  .logo{
      margin-bottom: .3em;
@@ -106,16 +106,16 @@ body{
  }
 .hero .brand{
     font-family: 'Fira Sans', sans-serif;
-    font-size: 3.3em;
+    font-size: 3.4em;
     font-weight: lighter;
     color: #390637;
 }
 .slogan{
-    color: #008395;
+    color: #004076;
     font-family: "Fira Sans";
-    font-size: 1em;
-    margin-bottom: 30px;
-    margin-left: 28px;
+    font-size: 1.3em;
+    margin-bottom: 17px;
+    /* margin-left: 28px; */
 }
 .logo-icon {
     margin: 7px 10px 7px 0;
@@ -198,10 +198,11 @@ body{
     color: #ff0058;
 }
 .button{
-    font-size: 1.2em;
+    font-size: 1em;
     background-color: #00363e;
     color: #b7df7e;
     text-shadow: none;
+    padding: .7em;
     }
 .button.success{
     margin-left: 20px;
