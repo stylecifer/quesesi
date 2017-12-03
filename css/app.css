@@ -88,11 +88,53 @@ body{
     color: rgba(255, 255, 255, 0.91);
     font-family: "Fira Sans"
 }
+label{
+    color: rgb(255, 0, 92);
+}
 /* Variables */
 /* Samall Navegation */
 
 
 /* Hero section */
+.Oferta{
+    background: url("../img/oferta-img.jpg") no-repeat center center;
+    background-size: cover;
+    height: 56vh;
+}
+.Oferta-navidad{
+    font-size: 1em;
+    color: #00ffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.Fifty-k{
+    line-height: 80px;
+    font-size: 6em;
+    color: #daff00;
+    margin-bottom: 0;
+}
+.De-puro-sabor {
+    line-height: 23px;
+    font-size: 1.6em;
+    color: #daff00;
+    margin-bottom: 0;
+}
+.Precio-oferta {
+    font-size: 2.9em;
+    line-height: 60px;
+    color: #daff00;    }
+.Ask {
+    padding: 20px 30px;
+    background-color: #008395;
+    color: #daff00;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.Title.column.small-10 {
+    margin-bottom: -25px;
+}
 .hero {
     background: url("../img/quesese-hero-img.jpg") no-repeat center center;
     background-size: cover;
@@ -209,145 +251,23 @@ body{
     background-color: #bf00b6;
     color: #f7dd99 }
 .margin-negative-bottom {
-    margin-bottom: -40px; }
+    margin-bottom: -40px;    }
 /*End Hero section */
-
-.vine {
-    margin: 1rem 0;
-}
-/*Frontend portfolio*/
-.image-wrapper {
-  width: 100%;
-  height: auto;
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  border-radius: 4px;
-}
-.image-overlay-content {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  padding: 2%
-}
-.overlay-slide-in-left img {
-  transition: all 0.3s ease-in-out;
-}
-.overlay-slide-in-left .image-overlay-content{
-  /*background-image: url(http://www.awwwards.com/awards/images/2015/04/pattern.jpg);*/
-  background: rgba(247,72,116,1);
-  background: -moz-linear-gradient(-45deg, rgba(247,72,116,1) 0%, rgba(255,0,48,1) 40%, rgba(255,0,48,1) 66%, rgba(199,20,85,1) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(247,72,116,1)), color-stop(40%, rgba(255,0,48,1)), color-stop(66%, rgba(255,0,48,1)), color-stop(100%, rgba(199,20,85,1)));
-  background: -webkit-linear-gradient(-45deg, rgba(247,72,116,1) 0%, rgba(255,0,48,1) 40%, rgba(255,0,48,1) 66%, rgba(199,20,85,1) 100%);
-  background: -o-linear-gradient(-45deg, rgba(247,72,116,1) 0%, rgba(255,0,48,1) 40%, rgba(255,0,48,1) 66%, rgba(199,20,85,1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(247,72,116,1) 0%, rgba(255,0,48,1) 40%, rgba(255,0,48,1) 66%, rgba(199,20,85,1) 100%);
-  background: linear-gradient(135deg, rgba(247,72,116,1) 0%, rgba(255,0,48,1) 40%, rgba(255,0,48,1) 66%, rgba(199,20,85,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f74874', endColorstr='#c71455', GradientType=1 );
-  transform: translateX(-110%);
-  opacity: 1;
-  transition: all 0.4s ease-in-out;
-  box-shadow: 0 0 7px #ccc; }
-.overlay-slide-in-left h3 {
-    margin: 0;
-    font-size: 1.33em;
-    font-weight: bolder;
-}
-.overlay-slide-in-left p {
-    opacity: 0;
-    transition: all 0.2s linear; }
-.overlay-slide-in-left .button {
-    margin-bottom: 0;
-    /* display: inline-block; */
-    /* text-decoration: none; */
-    padding: 5px 14px;
-    background: #1c0a25;
-    /* color: #fff; */
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000;
-    /* position: relative; */
-    border-radius: 7px;
+/* product and description sections*/
+.productos{
+    background-color: grey;    }
+.Product-description {
+    padding-top: 41px;
+    color: #008395;
     }
-.overlay-slide-in-left .button:hover {
-    background-color: #444; }
-.overlay-slide-in-left:hover .image-overlay-content {
-    transform: translateX(0px); }
-.overlay-slide-in-left:hover img {
-    transform: translateX(80%);
-    transition-delay: 0.1s; }
-.overlay-slide-in-left:hover p {
-    opacity: 1;
-    transition-delay: 0.4s;
-    margin: 0 }
-.Frontend{
-    background-color: #0872db }
-.Margin-bottom-lead{
-    margin-bottom: 3em
+.Product-name, .Product-price{
+    line-height: 1.8em;
+    /* margin: 0; */
+    padding: 0;
+    list-style: none;
+    font-size: 1.3em;
 }
-  /*Frontend portfolio*/
- /*Footer Contact*/
- .Contact{
-     height: 20vh;
-     background-color: #1c0a25;
- }
-.linkedin, .facebook, .twitter, .github, .youtube{
-    border-radius: 2px;
-    display: block;
-    height: 100%;
-    /* padding: 6% 0 3%; */
-    width: 100%;
-}
-.twitter{
-    color: #00aced
-}
-.twitter:hover {
-    color: white;
-  background:#00aced }
-.facebook{
-    color: #2163ec;
-}
-.facebook:hover {
-    color: white;
-  background:#3b5998 }
-.github{
-    color: #9c36fb;
-}
-.github:hover {
-    color: white;
-    background:#5f04b4;
-}
-.linkedin{
-    color: #007bb6
-}
-.linkedin:hover {
-    color: white;
-    background:#007bb6 }
-.gplus:hover {
-    color: white;
-    background:#007bb6 }
-.youtube{
-    color: #b00
-}
-.youtube:hover {
-    color: white;
-  background:#b00 }
-.vine:hover {
-    color: white;
-  background:#00bf8f }
-.linkedin:hover,
-.facebook:hover,
-.twitter:hover,
-.github:hover,
-.youtube:hover{
-    transition-duration: .8s;
-    transition-timing-function: cubic-bezier(0, 0.74, 0.9, 0.99);
-}
-.social-toniodis{
-    margin: 2em 0 3em
-}
+/* product and description sections*/
 .footer{
     margin: 2.3em 0 .3em;
 }
@@ -438,6 +358,8 @@ nav {
      }
 .title-bar{
     color: #d966d3;    }
+.title-bar-center {
+        margin: 0 auto; }
 .top-bar-title.tonioDisNav {
     align-self: flex-start;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0030+0,db0000+100 */
@@ -538,6 +460,12 @@ li.tonioDisNav:hover .fi-torso-business::before{
     margin-bottom: 2em }
 .js-off-canvas-overlay{
     background-color: rgba(25, 20, 31, 0.78) }
+.lista-ingredientes{
+    list-style: none;
+}
+.button.back{
+    margin-bottom: 0
+}
 /* Medium-Up Navigation */
 @media only screen and (min-width:40em){
   .logo-icon {
