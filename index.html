@@ -8,7 +8,6 @@
         <link rel="icon" type="image/png" href="img/an_icon.png" />
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/app.css">
-
         <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
     </head>
     <body>
@@ -17,22 +16,127 @@
 
     <nav class="off-canvas position-right" id="offCanvas" data-off-canvas>
         <!-- <button class="close-button hide-for-large" aria-label="Close menu" type="button" data-close> -->
-<!-- <span aria-hidden="true">&times;</span> -->
-
-        <div class="top-bar-left tonioDisNav">
-            <ul class="vertical menu" data-magellan data-bar-offset="-26" data-animation-easing="swing" >
-                <li class="tonioDisNav" data-close><a href="#Front-end"><i class="nav-icon-size fi-at-sign"></i>Web</a></li>
-                <li class="tonioDisNav" data-close><a href="#Audiovisual"><i class="nav-icon-size fi-play-circle"></i>Audiovisual</a></li>
-                <!-- <li class="tonioDisNav" data-close><i class="nav-icon-size fi-eye"></i><a href="#">Ads</a></li> -->
-                <li class="tonioDisNav" data-close><a href="#Contact"><i class="nav-icon-size fi-torso-business"></i>Contacto</a></li>
-
-            </ul>
+        <!-- <span aria-hidden="true">&times;</span> -->
+        <div class="column align-center small-10">
+            <h3>A la Carta!</h3>
+            <p>Tenemos todos los ingredientes para tu receta secreta, solo dinos <b>Qué y cúanto!</b></p>
         </div>
+        <form method="POST" action="#">
+            <div class="columns">
+                <ul class="lista-ingredientes">
+                    <li>
+                        <input id="checkbox1" type="checkbox"><label for="checkbox1">Apio</label>
+
+                        <select placeholder="¿Cúanto?">
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+                            <option value="apollo">30K</option>
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox2" type="checkbox"><label for="checkbox2">Palta</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+                            <option value="apollo">30K</option>
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox3" type="checkbox"><label for="checkbox3">Cebolla</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+                            <option value="apollo">30K</option>
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox4" type="checkbox"><label for="checkbox4">Tomate</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+                            <option value="apollo">30K</option>
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox5" type="checkbox"><label for="checkbox5">Pimenton</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+
+                            <option value="apollo">30K</option>
+
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox6" type="checkbox"><label for="checkbox6">Reineta</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+
+                            <option value="apollo">30K</option>
+
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox7" type="checkbox"><label for="checkbox7">Camaron</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+
+                            <option value="apollo">30K</option>
+
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox8" type="checkbox"><label for="checkbox8">Choritos</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+
+                            <option value="apollo">30K</option>
+
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input id="checkbox9" type="checkbox"><label for="checkbox9">Almeja</label>
+                        <select>
+                            <option value="10k">10K</option>
+                            <option value="20k">20K</option>
+
+                            <option value="apollo">30K</option>
+
+                            <option value="apollo">40K</option>
+                            <option value="apollo">50K</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-container">
+                <button class="button success expanded" type="submit" value="Send" name="Pedido">Listo!</button>
+                <button class="button" type="button">Llama</button>
+            </div>
+        </form>
     </nav>
         <!-- End Top Bar -->
     <div class="off-canvas-content" data-off-canvas-content>
         <!-- Hero section -->
-        <nav class="title-bar align-right" data-responsive-toggle="widemenu" data-hide-for="large">
+        <nav class="title-bar align-right" data-responsive-toggle="widemenu">
             <i class="step fi-list size-24 offcanvas-trigger" data-toggle="offCanvas"></i>
         </nav>
         <header class="hero row small-12 align-center align-bottom full-height collapse">
@@ -44,14 +148,14 @@
                     <h3 class="slogan">Te llevamos todo lo que necesitas para preparar la especialidad de la casa</h3>
                 </div>
                 <div class="flex-container align-spaced">
-                    <a href="lista-precios.html" class="button">A la Carta</a>
+                    <button href="#" class="button" data-toggle="offCanvas">A la Carta</button>
                     <a href="oferta.html" class="button success">Oferta Navidad</a>
                 </div>
             </div>
         </header>
         <!-- End Hero section -->
         <!-- Footer -->
-        <footer id="Contact" data-magellan-target="Contact" class="Contact row small-12 align-center full-height text-center align-middle">
+        <footer id="Contact" class="Contact row small-12 align-center text-center align-middle">
             <div class="footer column small-12 align-self-bottom">© 2017 &bull; queSeSí &bull; A Hanga Rocks Proyect &bull; <a class="facebook" href="https://www.facebook.com/toniodis" target="_blank"><i class="fi-social-facebook"></i>queSeSí</a>
             </div>
         </footer>

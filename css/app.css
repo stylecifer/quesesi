@@ -309,7 +309,7 @@ button.offcanvas-trigger {
     transform: translateX(-35px) translateY(0);
 }
 .off-canvas {
-    overflow: visible;
+    /* overflow: visible; */
     display:flex;
     flex-flow:row wrap;
     align-items: flex-end;
