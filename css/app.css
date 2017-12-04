@@ -246,7 +246,7 @@ label{
     text-shadow: none;
     padding: .7em;
     }
-.button.success{
+.Listo{
     margin-left: 20px;
     background-color: #bf00b6;
     color: #f7dd99 }
@@ -286,15 +286,19 @@ label{
 .off-canvas-absolute.is-open {
     -webkit-transform: translate(0, 0); }
 .position-right {
-  -webkit-transform: translateX(250px);
-  transform:translateX(250px);
-}
-  .position-right.is-open ~ .off-canvas-content {
+  -webkit-transform: translateX(300px);
+  transform:translateX(300px);
+  width: 83vw    }
+.position-right.is-open ~ .off-canvas-content {
     -webkit-transform: translateX(-250px);
 }
-
-  .position-right.is-transition-overlap.is-open ~ .off-canvas-content {
+.position-right.is-transition-overlap.is-open ~ .off-canvas-content {
     -webkit-transform: none; }
+.position-left{
+    width: 84vw;
+    -webkit-transform: translateX(-303px);
+    transform:translateX(-303px);
+}
 .hamburger {
     width: 60px;
     height: 60px;
@@ -302,14 +306,13 @@ label{
     border-radius:50%;
     padding-top: 23px;
 }
-
 button.offcanvas-trigger {
     cursor: pointer;
     position: absolute;
     transform: translateX(-35px) translateY(0);
 }
 .off-canvas {
-    /* overflow: visible; */
+    overflow: auto;
     display:flex;
     flex-flow:row wrap;
     align-items: flex-end;
@@ -317,7 +320,6 @@ button.offcanvas-trigger {
 .is-open .hamburger .line:nth-child(1), .is-open .hamburger .line:nth-child(2) {
   width: 20px;
 }
-
 .is-open .hamburger .line:nth-child(1) {
   -webkit-transform: translateX(5px) rotate(45deg);
   transform: translateX(5px) rotate(45deg);
@@ -353,9 +355,23 @@ button.offcanvas-trigger {
     font-weight: lighter;
     /* padding-left: 0; */
 }
-nav {
+nav, .Carta {
     background-color: #1c0a25 !important;
      }
+input, select{
+    margin-bottom: 0 !Important;
+}
+.Product-name-label{
+    min-width: 80px    }
+.lista-ingredientes li{
+    margin-bottom: 10px    }
+.Hero-carta{
+    background: url("../img/carta-img.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 60px;
+    margin-bottom: 30px
+}
+
 .title-bar{
     color: #d966d3;    }
 .title-bar-center {
